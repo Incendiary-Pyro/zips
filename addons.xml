@@ -72,4 +72,24 @@
 		<video_preview></video_preview>
 	</extension>
 	</addon>
+	
+	<addon id="plugin.video.TubeFlix" name="Tube Flix" version="1.0" provider-name="Pyro"> 
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.universalscrapers" version="1.0.2" />
+        <import addon="script.module.python.koding.aio" version="0.0.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">YouTube Movies</summary>
+		<description lang="en">This is a YouTube add-on. I did not upload, host, or own the rights to any of the videos.</description>
+		<platform>all</platform>
+		<news></news>
+		<genre>Movies</genre>
+		<video_guide></video_guide>
+		<video_preview></video_preview>
+	</extension>
+	</addon>
 </addons>
