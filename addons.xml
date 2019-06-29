@@ -53,7 +53,7 @@
 	</extension>
 	</addon>
 	
-	<addon id="plugin.video.TubeToons" name="Tube Toons" version="1.2" provider-name="Pyro"> 
+	<addon id="plugin.video.TubeToons" name="Tube Toons" version="1.3" provider-name="Pyro"> 
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.universalscrapers" version="1.0.2" />
