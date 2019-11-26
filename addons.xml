@@ -73,7 +73,7 @@
 	</extension>
 	</addon>
 	
-	<addon id="plugin.video.collective" name="Collective" version="2.0.0" provider-name="Pyro">
+	<addon id="plugin.video.collective" name="Collective" version="2.0.1" provider-name="Pyro">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
