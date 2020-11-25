@@ -28,46 +28,6 @@
 	</extension>
 	</addon>
 	
-	<addon id="plugin.video.temper" name="temper" version="1.4" provider-name="pyro"> 
-	<requires>
-		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="script.module.universalscrapers" version="1.0.2" />
-        <import addon="script.module.python.koding.aio" version="0.0.1"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>audio video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Music</summary> 
-		<description lang="en">Music to relax too. All videos are uploaded by their creators on YouTube. We do not host or own any content</description>
-		<platform>all</platform>
-		<news></news>
-		<genre>music</genre>
-		<video_guide></video_guide>
-		<video_preview></video_preview>
-	</extension>
-	</addon>
-	
-	<addon id="plugin.video.TubeToons" name="Tube Toons" version="1.8" provider-name="Pyro"> 
-	<requires>
-		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="script.module.universalscrapers" version="1.0.2" />
-        <import addon="script.module.python.koding.aio" version="0.0.1"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">YouTube Cartoons</summary>
-		<description lang="en">This is a YouTube add-on. I did not upload, host, or own the rights to any of the videos.</description>
-		<platform>all</platform>
-		<news></news>
-		<genre>cartoons</genre>
-		<video_guide></video_guide>
-		<video_preview></video_preview>
-	</extension>
-	</addon>
-	
 	<addon id="plugin.video.collective" name="Collective" version="2.0.3" provider-name="Pyro">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
